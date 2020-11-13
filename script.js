@@ -23,7 +23,7 @@ function compras() {
 	var importe = precio*cantidad;
 
 	document.getElementById('salida').innerHTML="<tr><td>"+"Producto"+"</td><td>"+"Precio"+"</td><td>"+"Cantidad"+"</td><td>"+"Importe"+"</td></tr>";
-    document.getElementById('salida').insertRow(-1).innerHTML+="<tr><td>"+producto+"</td><td>"+precio+"</td><td>"+cantidad+"</td><td>"+importe+"</td></tr>";
+    document.getElementById('salida').innerHTML+="<tr><td>"+producto+"</td><td>"+precio+"</td><td>"+cantidad+"</td><td>"+importe+"</td></tr>";
 }
 
 var cont=1;
